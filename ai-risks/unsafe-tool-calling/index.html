@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Unsafe Tool Calling | Plaintext Security</title>
+<meta name="description" content="Agent tool access without constraints can turn harmless prompts into real operational damage." />
+<meta property="og:title" content="Unsafe Tool Calling | Plaintext Security" />
+<meta property="og:description" content="Agent tool access without constraints can turn harmless prompts into real operational damage." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="ai-risks/unsafe-tool-calling/index.html" />
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../../assets/css/base.css" />
+<link rel="stylesheet" href="../../assets/css/components.css" />
+<link rel="stylesheet" href="../../assets/css/pages.css" />
+</head>
+<body data-root="../../" data-page="ai-risks" data-section="ai-risks" data-slug="unsafe-tool-calling">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <a href="../../index.html">Home</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../ai-risks/index.html">AI & Automation Risks</a>
+  <span aria-hidden="true">/</span>
+  <span>Unsafe Tool Calling</span>
+</nav>
+
+<article class="article container">
+  <header class="article-header">
+    <p class="eyebrow">AI & Automation Risks</p>
+    <h1>Unsafe Tool Calling</h1>
+    <p class="lede">Agent tool access without constraints can turn harmless prompts into real operational damage.</p>
+    <ul class="tag-list"><li class="tag-pill">AI agents</li><li class="tag-pill">Tool security</li></ul>
+    <p class="meta">Updated 2026-03-27</p>
+  </header>
+  <div class="article-content">
+    
+<section>
+  <h2>What this risk looks like</h2>
+  <p>If an agent can call powerful tools too freely, adversarial prompts can trigger unwanted side effects.</p>
+</section>
+<section>
+  <h2>What can go wrong</h2>
+  <ul>
+    <li>Unauthorized API calls or data changes</li><li>Command execution based on manipulated input</li><li>Escalation from read-only tasks to write operations</li>
+  </ul>
+</section>
+<section>
+  <h2>Safer patterns</h2>
+  <ol>
+    <li>Use least-privilege tool scopes per workflow.</li><li>Require explicit user confirmation for destructive actions.</li><li>Attach policy gates between model and executor.</li>
+  </ol>
+</section>
+<section>
+  <h2>Minimum control set</h2>
+  <div class="checklist">
+    <ul>
+      <li>Per-tool allowlists and argument validation</li><li>Detailed audit logs for every tool call</li><li>Kill switch for suspicious automation behavior</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="callout"><strong>AI builder reminder:</strong> Model output is not policy. Every sensitive action needs explicit guardrails.</div>
+</section>
+
+  </div>
+</article>
+<section class="container related-shell" data-related></section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="../../assets/js/content-data.js"></script>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

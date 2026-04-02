@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Submit a Scam | Plaintext Security</title>
+<meta name="description" content="Static submit form mockup for suspicious scams, links, and impersonation attempts." />
+<meta property="og:title" content="Submit a Scam | Plaintext Security" />
+<meta property="og:description" content="Static submit form mockup for suspicious scams, links, and impersonation attempts." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="submit/index.html" />
+<link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../assets/css/base.css" />
+<link rel="stylesheet" href="../assets/css/components.css" />
+<link rel="stylesheet" href="../assets/css/pages.css" />
+</head>
+<body data-root="../" data-page="submit">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+<section class="section section-tight">
+  <div class="container">
+    <p class="eyebrow">Submit a Scam</p>
+    <h1>Share a suspicious message, link, or pattern</h1>
+    <p class="lede">This form is a static UI mockup for GitHub Pages. Connect it to your preferred backend or form provider when ready.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container card">
+    <form aria-label="Submit suspicious scam example form">
+      <div class="form-grid">
+        <div class="form-row">
+          <label for="name">Name (optional)</label>
+          <input id="name" name="name" type="text" autocomplete="name" />
+        </div>
+        <div class="form-row">
+          <label for="email">Email (optional)</label>
+          <input id="email" name="email" type="email" autocomplete="email" />
+        </div>
+        <div class="form-row">
+          <label for="channel">Where did this happen?</label>
+          <select id="channel" name="channel">
+            <option value="sms">SMS</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone call</option>
+            <option value="qr">QR code</option>
+            <option value="social">Social media</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="date">Date noticed</label>
+          <input id="date" name="date" type="date" />
+        </div>
+        <div class="form-row full">
+          <label for="link">Suspicious link or sender details</label>
+          <input id="link" name="link" type="text" placeholder="https://example.com or sender phone/email" />
+        </div>
+        <div class="form-row full">
+          <label for="details">What happened?</label>
+          <textarea id="details" name="details" placeholder="Describe what made this suspicious and what action was requested."></textarea>
+        </div>
+      </div>
+      <div class="button-row">
+        <button class="btn btn-primary" type="button">Submit (UI placeholder)</button>
+        <a class="btn btn-text" href="../response/index.html">Need immediate help instead?</a>
+      </div>
+      <p class="subtle">Do not include full passwords, card numbers, or private keys in submissions.</p>
+    </form>
+  </div>
+</section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="../assets/js/content-data.js"></script>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

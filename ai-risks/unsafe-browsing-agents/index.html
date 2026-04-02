@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Unsafe Browsing Agents | Plaintext Security</title>
+<meta name="description" content="Agents that browse external sites can be steered by hostile pages unless tightly sandboxed." />
+<meta property="og:title" content="Unsafe Browsing Agents | Plaintext Security" />
+<meta property="og:description" content="Agents that browse external sites can be steered by hostile pages unless tightly sandboxed." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="ai-risks/unsafe-browsing-agents/index.html" />
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../../assets/css/base.css" />
+<link rel="stylesheet" href="../../assets/css/components.css" />
+<link rel="stylesheet" href="../../assets/css/pages.css" />
+</head>
+<body data-root="../../" data-page="ai-risks" data-section="ai-risks" data-slug="unsafe-browsing-agents">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <a href="../../index.html">Home</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../ai-risks/index.html">AI & Automation Risks</a>
+  <span aria-hidden="true">/</span>
+  <span>Unsafe Browsing Agents</span>
+</nav>
+
+<article class="article container">
+  <header class="article-header">
+    <p class="eyebrow">AI & Automation Risks</p>
+    <h1>Unsafe Browsing Agents</h1>
+    <p class="lede">Agents that browse external sites can be steered by hostile pages unless tightly sandboxed.</p>
+    <ul class="tag-list"><li class="tag-pill">Web agents</li><li class="tag-pill">Sandboxing</li></ul>
+    <p class="meta">Updated 2026-03-18</p>
+  </header>
+  <div class="article-content">
+    
+<section>
+  <h2>What this risk looks like</h2>
+  <p>Web content is attacker-controlled. Agents that read and act on it need stronger boundaries than normal user browsing.</p>
+</section>
+<section>
+  <h2>What can go wrong</h2>
+  <ul>
+    <li>Instruction hijacking via malicious page content</li><li>Credential leakage to lookalike domains</li><li>Automatic downloads or unsafe navigation loops</li>
+  </ul>
+</section>
+<section>
+  <h2>Safer patterns</h2>
+  <ol>
+    <li>Constrain navigation domains and action types.</li><li>Run browsing in isolated sandboxes.</li><li>Require human approval before sensitive submissions.</li>
+  </ol>
+</section>
+<section>
+  <h2>Minimum control set</h2>
+  <div class="checklist">
+    <ul>
+      <li>Network egress allowlists</li><li>Download and upload restrictions</li><li>Screenshot + action trace for review</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="callout"><strong>AI builder reminder:</strong> Model output is not policy. Every sensitive action needs explicit guardrails.</div>
+</section>
+
+  </div>
+</article>
+<section class="container related-shell" data-related></section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="../../assets/js/content-data.js"></script>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

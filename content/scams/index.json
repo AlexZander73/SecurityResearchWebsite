@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "malicious-qr-codes",
+    "title": "Malicious QR Codes",
+    "summary": "How attackers use QR codes to hide links, rush decisions, and steal logins or payments.",
+    "tags": [
+      "QR scams",
+      "Phishing",
+      "Mobile safety"
+    ],
+    "date": "2026-03-29"
+  },
+  {
+    "slug": "fake-parking-meter-qr-codes",
+    "title": "Fake Parking Meter QR Codes",
+    "summary": "A growing scam pattern: counterfeit stickers on parking meters that redirect payment to criminals.",
+    "tags": [
+      "QR scams",
+      "Payments",
+      "Public spaces"
+    ],
+    "date": "2026-03-26"
+  },
+  {
+    "slug": "phishing-pages",
+    "title": "Phishing Pages That Look Real",
+    "summary": "How cloned sign-in pages trick people into handing over passwords and MFA codes.",
+    "tags": [
+      "Phishing",
+      "Credentials",
+      "Email safety"
+    ],
+    "date": "2026-03-23"
+  },
+  {
+    "slug": "package-delivery-scams",
+    "title": "Package Delivery Scams",
+    "summary": "Fake shipping alerts push people to pay tiny \u201credelivery fees\u201d or reveal personal details.",
+    "tags": [
+      "SMS scams",
+      "Payments",
+      "Phishing"
+    ],
+    "date": "2026-03-20"
+  },
+  {
+    "slug": "fake-bank-alerts",
+    "title": "Fake Bank Alerts",
+    "summary": "Fraud alerts can be faked to trigger panic and push victims into fake \u201cverification\u201d flows.",
+    "tags": [
+      "Impersonation",
+      "Banking",
+      "Social engineering"
+    ],
+    "date": "2026-03-18"
+  },
+  {
+    "slug": "job-scams",
+    "title": "Remote Job Scams",
+    "summary": "Scammers exploit job seekers with fake interviews, fake checks, and equipment payment tricks.",
+    "tags": [
+      "Employment scams",
+      "Payments",
+      "Identity theft"
+    ],
+    "date": "2026-03-16"
+  },
+  {
+    "slug": "ai-voice-impersonation",
+    "title": "AI Voice Impersonation Scams",
+    "summary": "Synthetic voice cloning is used to mimic loved ones, executives, or support agents under pressure.",
+    "tags": [
+      "AI scams",
+      "Impersonation",
+      "Phone fraud"
+    ],
+    "date": "2026-03-14"
+  },
+  {
+    "slug": "fake-tech-support",
+    "title": "Fake Tech Support Scams",
+    "summary": "Pop-ups and calls that claim your device is infected often lead to remote access abuse and payment theft.",
+    "tags": [
+      "Support scams",
+      "Remote access",
+      "Device security"
+    ],
+    "date": "2026-03-12"
+  }
+]

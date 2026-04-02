@@ -1,0 +1,129 @@
+.home-highlight {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.trap-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+
+.mission {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.poster {
+  max-width: 48rem;
+  margin: 0 auto;
+  border: 2px solid #bfd0e4;
+  border-radius: var(--radius-lg);
+  background: white;
+  box-shadow: var(--shadow);
+  padding: 2rem;
+}
+
+.poster h1 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.poster .qr-checklist {
+  background: #f4f8fd;
+  border: 1px solid #d8e3f0;
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+
+.error-shell {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.roadmap-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.roadmap-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+
+.roadmap-item h3 {
+  margin-bottom: 0.35rem;
+}
+
+.sim-shell {
+  background: linear-gradient(165deg, #f6f9fd, #eef4fb 55%, #e6eef8);
+  border: 1px solid #cddaea;
+  border-radius: var(--radius-lg);
+  padding: 1.1rem;
+}
+
+.sim-transcript {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+.sim-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.sim-debrief {
+  margin-top: 0.85rem;
+  border-radius: var(--radius-sm);
+  padding: 0.8rem;
+  border: 1px solid #d7deea;
+  background: #f8fbff;
+}
+
+.sim-debrief.is-risk-high {
+  border-color: #efb8a8;
+  background: #fff7f4;
+  color: #8a2d0f;
+}
+
+.sim-debrief.is-risk-low {
+  border-color: #9fd3cb;
+  background: #f0fbf8;
+  color: #0f5c56;
+}
+
+.roadmap-kpi {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.kpi {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+
+.kpi strong {
+  display: block;
+  font-size: 1.7rem;
+  line-height: 1.1;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+@media (max-width: 1020px) {
+  .home-highlight,
+  .mission,
+  .roadmap-kpi {
+    grid-template-columns: 1fr;
+  }
+}

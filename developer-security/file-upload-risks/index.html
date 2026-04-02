@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>File Upload Risks | Plaintext Security</title>
+<meta name="description" content="Uploads are untrusted input with storage, parsing, and execution consequences." />
+<meta property="og:title" content="File Upload Risks | Plaintext Security" />
+<meta property="og:description" content="Uploads are untrusted input with storage, parsing, and execution consequences." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="developer-security/file-upload-risks/index.html" />
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../../assets/css/base.css" />
+<link rel="stylesheet" href="../../assets/css/components.css" />
+<link rel="stylesheet" href="../../assets/css/pages.css" />
+</head>
+<body data-root="../../" data-page="developer-security" data-section="developer-security" data-slug="file-upload-risks">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <a href="../../index.html">Home</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../developer-security/index.html">Developer Security</a>
+  <span aria-hidden="true">/</span>
+  <span>File Upload Risks</span>
+</nav>
+
+<article class="article container">
+  <header class="article-header">
+    <p class="eyebrow">Developer Security</p>
+    <h1>File Upload Risks</h1>
+    <p class="lede">Uploads are untrusted input with storage, parsing, and execution consequences.</p>
+    <ul class="tag-list"><li class="tag-pill">File uploads</li><li class="tag-pill">Input validation</li></ul>
+    <p class="meta">Updated 2026-03-24</p>
+  </header>
+  <div class="article-content">
+    
+<section>
+  <h2>The unsafe default</h2>
+  <p>Upload endpoints invite parser attacks, malware hosting, and unexpected execution when validation is weak.</p>
+</section>
+<section>
+  <h2>Failure modes to watch</h2>
+  <ul>
+    <li>Trusting file extensions alone</li><li>Serving uploads from same origin as app code</li><li>Processing files with high-privilege workers</li>
+  </ul>
+</section>
+<section>
+  <h2>Safer implementation patterns</h2>
+  <ol>
+    <li>Validate type by content and strict allowlist.</li><li>Store uploads in isolated buckets/domains.</li><li>Scan asynchronously and quarantine unknowns.</li>
+  </ol>
+</section>
+<section>
+  <h2>Minimum controls for small teams</h2>
+  <div class="checklist">
+    <ul>
+      <li>Size/type limits plus antivirus scanning.</li><li>Signed URL access and least-privilege processing.</li><li>Content-Disposition and no-execute headers.</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="callout"><strong>Builder note:</strong> Security posture is mostly defaults and review discipline, not heroics.</div>
+</section>
+
+  </div>
+</article>
+<section class="container related-shell" data-related></section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="../../assets/js/content-data.js"></script>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

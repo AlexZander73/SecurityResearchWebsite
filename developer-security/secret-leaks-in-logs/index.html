@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Secret Leaks in Logs | Plaintext Security</title>
+<meta name="description" content="Logs help debugging but often become accidental secret warehouses." />
+<meta property="og:title" content="Secret Leaks in Logs | Plaintext Security" />
+<meta property="og:description" content="Logs help debugging but often become accidental secret warehouses." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="developer-security/secret-leaks-in-logs/index.html" />
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../../assets/css/base.css" />
+<link rel="stylesheet" href="../../assets/css/components.css" />
+<link rel="stylesheet" href="../../assets/css/pages.css" />
+</head>
+<body data-root="../../" data-page="developer-security" data-section="developer-security" data-slug="secret-leaks-in-logs">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <a href="../../index.html">Home</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../developer-security/index.html">Developer Security</a>
+  <span aria-hidden="true">/</span>
+  <span>Secret Leaks in Logs</span>
+</nav>
+
+<article class="article container">
+  <header class="article-header">
+    <p class="eyebrow">Developer Security</p>
+    <h1>Secret Leaks in Logs</h1>
+    <p class="lede">Logs help debugging but often become accidental secret warehouses.</p>
+    <ul class="tag-list"><li class="tag-pill">Secrets management</li><li class="tag-pill">Observability</li></ul>
+    <p class="meta">Updated 2026-03-27</p>
+  </header>
+  <div class="article-content">
+    
+<section>
+  <h2>The unsafe default</h2>
+  <p>Debug logging captures tokens, API keys, and user data, then replicates them across many systems.</p>
+</section>
+<section>
+  <h2>Failure modes to watch</h2>
+  <ul>
+    <li>Request/response dumps in production</li><li>Logging authorization headers by default</li><li>Long retention of sensitive traces</li>
+  </ul>
+</section>
+<section>
+  <h2>Safer implementation patterns</h2>
+  <ol>
+    <li>Redact known secret patterns at ingest.</li><li>Define safe logging contracts per service.</li><li>Require elevated access for raw logs.</li>
+  </ol>
+</section>
+<section>
+  <h2>Minimum controls for small teams</h2>
+  <div class="checklist">
+    <ul>
+      <li>Secret scanners for logs and CI artifacts.</li><li>Short retention for sensitive event streams.</li><li>Key rotation playbook for leak response.</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="callout"><strong>Builder note:</strong> Security posture is mostly defaults and review discipline, not heroics.</div>
+</section>
+
+  </div>
+</article>
+<section class="container related-shell" data-related></section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="../../assets/js/content-data.js"></script>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

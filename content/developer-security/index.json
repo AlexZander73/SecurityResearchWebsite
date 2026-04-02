@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "login-working-is-not-auth-done",
+    "title": "Login Working Is Not Auth Done",
+    "summary": "Authentication that \u201cworks\u201d can still fail at authorization, session control, and abuse resistance.",
+    "tags": [
+      "Auth",
+      "Web app security"
+    ],
+    "date": "2026-03-30"
+  },
+  {
+    "slug": "secret-leaks-in-logs",
+    "title": "Secret Leaks in Logs",
+    "summary": "Logs help debugging but often become accidental secret warehouses.",
+    "tags": [
+      "Secrets management",
+      "Observability"
+    ],
+    "date": "2026-03-27"
+  },
+  {
+    "slug": "file-upload-risks",
+    "title": "File Upload Risks",
+    "summary": "Uploads are untrusted input with storage, parsing, and execution consequences.",
+    "tags": [
+      "File uploads",
+      "Input validation"
+    ],
+    "date": "2026-03-24"
+  },
+  {
+    "slug": "dependency-trust",
+    "title": "Dependency Trust for Small Teams",
+    "summary": "Your app security includes every package and transitive dependency you ship.",
+    "tags": [
+      "Supply chain",
+      "Dependencies"
+    ],
+    "date": "2026-03-21"
+  },
+  {
+    "slug": "admin-panel-mistakes",
+    "title": "Admin Panel Mistakes That Keep Repeating",
+    "summary": "Admin interfaces are high-impact targets and need stronger defaults than customer-facing pages.",
+    "tags": [
+      "Admin security",
+      "Access control"
+    ],
+    "date": "2026-03-18"
+  },
+  {
+    "slug": "secure-defaults-for-small-apps",
+    "title": "Secure Defaults for Small Apps",
+    "summary": "If your defaults are safe, your future self ships faster and cleaner.",
+    "tags": [
+      "Secure defaults",
+      "Startup engineering"
+    ],
+    "date": "2026-03-15"
+  }
+]

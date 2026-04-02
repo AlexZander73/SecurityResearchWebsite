@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "prompt-injection-explained",
+    "title": "Prompt Injection Explained Simply",
+    "summary": "Why model instructions can be manipulated through untrusted content and how to reduce that risk.",
+    "tags": [
+      "Prompt injection",
+      "LLM security"
+    ],
+    "date": "2026-03-30"
+  },
+  {
+    "slug": "unsafe-tool-calling",
+    "title": "Unsafe Tool Calling",
+    "summary": "Agent tool access without constraints can turn harmless prompts into real operational damage.",
+    "tags": [
+      "AI agents",
+      "Tool security"
+    ],
+    "date": "2026-03-27"
+  },
+  {
+    "slug": "excessive-agent-permissions",
+    "title": "Excessive Agent Permissions",
+    "summary": "Overpowered agents increase blast radius. Permission boundaries are a product requirement, not an afterthought.",
+    "tags": [
+      "AI agents",
+      "Least privilege"
+    ],
+    "date": "2026-03-24"
+  },
+  {
+    "slug": "data-leakage-through-prompts",
+    "title": "Data Leakage Through Prompts",
+    "summary": "Sensitive data can leak into prompts, logs, and outputs unless your pipeline explicitly prevents it.",
+    "tags": [
+      "Data protection",
+      "Prompt hygiene"
+    ],
+    "date": "2026-03-21"
+  },
+  {
+    "slug": "unsafe-browsing-agents",
+    "title": "Unsafe Browsing Agents",
+    "summary": "Agents that browse external sites can be steered by hostile pages unless tightly sandboxed.",
+    "tags": [
+      "Web agents",
+      "Sandboxing"
+    ],
+    "date": "2026-03-18"
+  },
+  {
+    "slug": "ai-generated-scam-content",
+    "title": "AI-Generated Scam Content",
+    "summary": "AI makes high-quality scam copy and impersonation cheaper; defense now depends on verification workflows.",
+    "tags": [
+      "AI scams",
+      "Social engineering"
+    ],
+    "date": "2026-03-15"
+  }
+]

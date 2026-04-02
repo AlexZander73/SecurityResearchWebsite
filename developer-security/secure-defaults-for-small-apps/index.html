@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Secure Defaults for Small Apps | Plaintext Security</title>
+<meta name="description" content="If your defaults are safe, your future self ships faster and cleaner." />
+<meta property="og:title" content="Secure Defaults for Small Apps | Plaintext Security" />
+<meta property="og:description" content="If your defaults are safe, your future self ships faster and cleaner." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="developer-security/secure-defaults-for-small-apps/index.html" />
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../../assets/css/base.css" />
+<link rel="stylesheet" href="../../assets/css/components.css" />
+<link rel="stylesheet" href="../../assets/css/pages.css" />
+</head>
+<body data-root="../../" data-page="developer-security" data-section="developer-security" data-slug="secure-defaults-for-small-apps">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <a href="../../index.html">Home</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../developer-security/index.html">Developer Security</a>
+  <span aria-hidden="true">/</span>
+  <span>Secure Defaults for Small Apps</span>
+</nav>
+
+<article class="article container">
+  <header class="article-header">
+    <p class="eyebrow">Developer Security</p>
+    <h1>Secure Defaults for Small Apps</h1>
+    <p class="lede">If your defaults are safe, your future self ships faster and cleaner.</p>
+    <ul class="tag-list"><li class="tag-pill">Secure defaults</li><li class="tag-pill">Startup engineering</li></ul>
+    <p class="meta">Updated 2026-03-15</p>
+  </header>
+  <div class="article-content">
+    
+<section>
+  <h2>The unsafe default</h2>
+  <p>Many security issues are not advanced attacks; they are unsafe defaults that nobody revisits.</p>
+</section>
+<section>
+  <h2>Failure modes to watch</h2>
+  <ul>
+    <li>Debug mode left on in production</li><li>Overly broad API keys and service roles</li><li>No baseline headers or abuse controls</li>
+  </ul>
+</section>
+<section>
+  <h2>Safer implementation patterns</h2>
+  <ol>
+    <li>Ship with restrictive policies first.</li><li>Automate environment hardening checks.</li><li>Design rollback paths that preserve security controls.</li>
+  </ol>
+</section>
+<section>
+  <h2>Minimum controls for small teams</h2>
+  <div class="checklist">
+    <ul>
+      <li>HTTPS-only, secure cookies, CSP baseline.</li><li>Rate limits and input validation by default.</li><li>Secrets from managed stores, never source code.</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="callout"><strong>Builder note:</strong> Security posture is mostly defaults and review discipline, not heroics.</div>
+</section>
+
+  </div>
+</article>
+<section class="container related-shell" data-related></section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="../../assets/js/content-data.js"></script>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

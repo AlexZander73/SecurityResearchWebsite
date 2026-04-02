@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "scanned-a-suspicious-qr-code",
+    "title": "I Scanned a Suspicious QR Code",
+    "summary": "A practical, calm checklist for what to do immediately after scanning an unknown QR destination.",
+    "tags": [
+      "QR safety",
+      "Incident response"
+    ],
+    "date": "2026-03-30"
+  },
+  {
+    "slug": "entered-password-on-a-fake-site",
+    "title": "I Entered My Password on a Fake Site",
+    "summary": "If you typed credentials into a phishing page, speed matters. Here is a practical recovery order.",
+    "tags": [
+      "Phishing",
+      "Account recovery"
+    ],
+    "date": "2026-03-27"
+  },
+  {
+    "slug": "downloaded-a-suspicious-file",
+    "title": "I Downloaded a Suspicious File",
+    "summary": "Downloaded something sketchy? Contain first, then verify what executed and what changed.",
+    "tags": [
+      "Malware",
+      "Device response"
+    ],
+    "date": "2026-03-24"
+  },
+  {
+    "slug": "paid-a-scammer",
+    "title": "I Paid a Scammer",
+    "summary": "The fastest possible payment response steps to improve recovery chances and reduce follow-on fraud.",
+    "tags": [
+      "Fraud response",
+      "Payments"
+    ],
+    "date": "2026-03-21"
+  }
+]

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Excessive Agent Permissions | Plaintext Security</title>
+<meta name="description" content="Overpowered agents increase blast radius. Permission boundaries are a product requirement, not an afterthought." />
+<meta property="og:title" content="Excessive Agent Permissions | Plaintext Security" />
+<meta property="og:description" content="Overpowered agents increase blast radius. Permission boundaries are a product requirement, not an afterthought." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="ai-risks/excessive-agent-permissions/index.html" />
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../../assets/css/base.css" />
+<link rel="stylesheet" href="../../assets/css/components.css" />
+<link rel="stylesheet" href="../../assets/css/pages.css" />
+</head>
+<body data-root="../../" data-page="ai-risks" data-section="ai-risks" data-slug="excessive-agent-permissions">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <a href="../../index.html">Home</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../ai-risks/index.html">AI & Automation Risks</a>
+  <span aria-hidden="true">/</span>
+  <span>Excessive Agent Permissions</span>
+</nav>
+
+<article class="article container">
+  <header class="article-header">
+    <p class="eyebrow">AI & Automation Risks</p>
+    <h1>Excessive Agent Permissions</h1>
+    <p class="lede">Overpowered agents increase blast radius. Permission boundaries are a product requirement, not an afterthought.</p>
+    <ul class="tag-list"><li class="tag-pill">AI agents</li><li class="tag-pill">Least privilege</li></ul>
+    <p class="meta">Updated 2026-03-24</p>
+  </header>
+  <div class="article-content">
+    
+<section>
+  <h2>What this risk looks like</h2>
+  <p>Agents are often given broad access for convenience, creating a single-point failure mode for data and operations.</p>
+</section>
+<section>
+  <h2>What can go wrong</h2>
+  <ul>
+    <li>Cross-system lateral movement</li><li>Bulk data access beyond task scope</li><li>Irreversible actions executed quickly at scale</li>
+  </ul>
+</section>
+<section>
+  <h2>Safer patterns</h2>
+  <ol>
+    <li>Issue short-lived, scoped credentials.</li><li>Partition agent roles by task domain.</li><li>Enforce approval flows for high-impact actions.</li>
+  </ol>
+</section>
+<section>
+  <h2>Minimum control set</h2>
+  <div class="checklist">
+    <ul>
+      <li>Role-based access for every connector</li><li>Scoped secrets rotation cadence</li><li>Periodic permission reviews with owners</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="callout"><strong>AI builder reminder:</strong> Model output is not policy. Every sensitive action needs explicit guardrails.</div>
+</section>
+
+  </div>
+</article>
+<section class="container related-shell" data-related></section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="../../assets/js/content-data.js"></script>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

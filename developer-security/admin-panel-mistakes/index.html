@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Admin Panel Mistakes That Keep Repeating | Plaintext Security</title>
+<meta name="description" content="Admin interfaces are high-impact targets and need stronger defaults than customer-facing pages." />
+<meta property="og:title" content="Admin Panel Mistakes That Keep Repeating | Plaintext Security" />
+<meta property="og:description" content="Admin interfaces are high-impact targets and need stronger defaults than customer-facing pages." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="developer-security/admin-panel-mistakes/index.html" />
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../../assets/css/base.css" />
+<link rel="stylesheet" href="../../assets/css/components.css" />
+<link rel="stylesheet" href="../../assets/css/pages.css" />
+</head>
+<body data-root="../../" data-page="developer-security" data-section="developer-security" data-slug="admin-panel-mistakes">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <a href="../../index.html">Home</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../developer-security/index.html">Developer Security</a>
+  <span aria-hidden="true">/</span>
+  <span>Admin Panel Mistakes That Keep Repeating</span>
+</nav>
+
+<article class="article container">
+  <header class="article-header">
+    <p class="eyebrow">Developer Security</p>
+    <h1>Admin Panel Mistakes That Keep Repeating</h1>
+    <p class="lede">Admin interfaces are high-impact targets and need stronger defaults than customer-facing pages.</p>
+    <ul class="tag-list"><li class="tag-pill">Admin security</li><li class="tag-pill">Access control</li></ul>
+    <p class="meta">Updated 2026-03-18</p>
+  </header>
+  <div class="article-content">
+    
+<section>
+  <h2>The unsafe default</h2>
+  <p>Internal tools often skip safeguards because they are “just for us,” then become prime attack paths.</p>
+</section>
+<section>
+  <h2>Failure modes to watch</h2>
+  <ul>
+    <li>No MFA requirement for admin accounts</li><li>Admin routes exposed publicly with weak rate limits</li><li>No audit trail for sensitive actions</li>
+  </ul>
+</section>
+<section>
+  <h2>Safer implementation patterns</h2>
+  <ol>
+    <li>Separate admin identity provider and stronger MFA.</li><li>IP/device controls and explicit allowlists.</li><li>Tamper-evident logs for privilege-changing actions.</li>
+  </ol>
+</section>
+<section>
+  <h2>Minimum controls for small teams</h2>
+  <div class="checklist">
+    <ul>
+      <li>Least privilege role model with periodic review.</li><li>Break-glass accounts with strict monitoring.</li><li>Security review on every new admin feature.</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="callout"><strong>Builder note:</strong> Security posture is mostly defaults and review discipline, not heroics.</div>
+</section>
+
+  </div>
+</article>
+<section class="container related-shell" data-related></section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="../../assets/js/content-data.js"></script>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

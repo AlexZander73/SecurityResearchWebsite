@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Plaintext Security Blog</title>
+  <link>https://example.com/blog/</link>
+  <description>Practical security explainers and commentary from Plaintext Security.</description>
+
+  <item>
+    <title>Why QR Codes Are a Trust Problem, Not a Tech Problem</title>
+    <link>https://example.com/blog/why-qr-codes-are-a-trust-problem/index.html</link>
+    <guid>https://example.com/blog/why-qr-codes-are-a-trust-problem/index.html</guid>
+    <description>The risk in QR codes is not the square itself; it is the invisible destination and rushed context.</description>
+    <pubDate>2026-03-28</pubDate>
+  </item>
+
+  <item>
+    <title>One Red Flag Can Save You</title>
+    <link>https://example.com/blog/one-red-flag-can-save-you/index.html</link>
+    <guid>https://example.com/blog/one-red-flag-can-save-you/index.html</guid>
+    <description>You do not need perfect detection; one credible warning sign is enough reason to stop and verify.</description>
+    <pubDate>2026-03-25</pubDate>
+  </item>
+
+  <item>
+    <title>Why Smart People Still Get Scammed</title>
+    <link>https://example.com/blog/why-smart-people-still-get-scammed/index.html</link>
+    <guid>https://example.com/blog/why-smart-people-still-get-scammed/index.html</guid>
+    <description>Scams succeed through context and pressure, not lack of intelligence.</description>
+    <pubDate>2026-03-22</pubDate>
+  </item>
+
+  <item>
+    <title>Move Fast, Ship Risk: A Builder’s Tradeoff</title>
+    <link>https://example.com/blog/move-fast-ship-risk/index.html</link>
+    <guid>https://example.com/blog/move-fast-ship-risk/index.html</guid>
+    <description>Shipping quickly is not the problem; shipping without secure defaults is.</description>
+    <pubDate>2026-03-19</pubDate>
+  </item>
+
+  <item>
+    <title>AI Makes Scams Cheaper, Faster, and More Personal</title>
+    <link>https://example.com/blog/ai-makes-scams-cheaper/index.html</link>
+    <guid>https://example.com/blog/ai-makes-scams-cheaper/index.html</guid>
+    <description>Generative tooling lowers attacker cost and increases iteration speed, changing scam economics.</description>
+    <pubDate>2026-03-16</pubDate>
+  </item>
+
+  <item>
+    <title>Good Security Advice Should Be Clear Under Stress</title>
+    <link>https://example.com/blog/good-security-advice-should-be-clear/index.html</link>
+    <guid>https://example.com/blog/good-security-advice-should-be-clear/index.html</guid>
+    <description>If guidance only works when people are calm and technical, it is not good enough.</description>
+    <pubDate>2026-03-13</pubDate>
+  </item>
+
+</channel>
+</rss>

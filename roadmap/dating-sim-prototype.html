@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dating Sim Prototype | Plaintext Security</title>
+<meta name="description" content="Playable static prototype for dating-sim style scam-awareness training." />
+<meta property="og:title" content="Dating Sim Prototype | Plaintext Security" />
+<meta property="og:description" content="Try a branching chat-style scenario and get immediate scam-risk debriefs." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="roadmap/dating-sim-prototype.html" />
+<link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../assets/css/base.css" />
+<link rel="stylesheet" href="../assets/css/components.css" />
+<link rel="stylesheet" href="../assets/css/pages.css" />
+</head>
+<body data-root="../" data-page="roadmap">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <a href="../index.html">Home</a>
+  <span aria-hidden="true">/</span>
+  <a href="index.html">Roadmap</a>
+  <span aria-hidden="true">/</span>
+  <span>Dating Sim Prototype</span>
+</nav>
+
+<section class="section section-tight">
+  <div class="container">
+    <p class="eyebrow">Playable Prototype</p>
+    <h1>Dating-sim scam-awareness prototype</h1>
+    <p class="lede">This lightweight static prototype demonstrates branching scenario flow and immediate debrief feedback. It is educational, not diagnostic.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container sim-shell" data-dating-sim>
+    <div class="sim-transcript">
+      <h2>Scenario: sudden emergency request</h2>
+      <p data-dating-text></p>
+    </div>
+    <div class="sim-choices" data-dating-choices></div>
+    <div class="sim-debrief" data-dating-status aria-live="polite"></div>
+    <div class="button-row">
+      <button class="btn btn-secondary" type="button" data-dating-reset>Restart scenario</button>
+      <a class="btn btn-text" href="dating-sim.html">Read full concept</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container card-grid card-grid-2">
+    <article class="card">
+      <h2>What this prototype tests</h2>
+      <ul>
+        <li>Are choices clear under stress?</li>
+        <li>Is debrief language practical and calm?</li>
+        <li>Do users understand immediate next actions?</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h2>Future improvements</h2>
+      <ul>
+        <li>More scenarios (travel, crypto, fake account support)</li>
+        <li>Difficulty levels by experience and risk tolerance</li>
+        <li>Printable summary of personal red flags spotted</li>
+      </ul>
+    </article>
+  </div>
+</section>
+  </main>
+  <div data-site-footer></div>
+  <script src="../assets/js/content-data.js"></script>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

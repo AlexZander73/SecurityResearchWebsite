@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "passwords-vs-passphrases",
+    "title": "Passwords vs Passphrases",
+    "summary": "Why long, memorable passphrases usually beat short complex passwords in real life.",
+    "tags": [
+      "Passwords",
+      "Account security"
+    ],
+    "date": "2026-03-28"
+  },
+  {
+    "slug": "what-is-mfa",
+    "title": "What Is MFA (and Why It Matters)?",
+    "summary": "A practical explanation of multi-factor authentication and which factors are safer than others.",
+    "tags": [
+      "MFA",
+      "Authentication"
+    ],
+    "date": "2026-03-25"
+  },
+  {
+    "slug": "spotting-fake-links",
+    "title": "Spotting Fake Links",
+    "summary": "Simple checks to avoid phishing URLs without needing deep technical knowledge.",
+    "tags": [
+      "Phishing",
+      "Browsers"
+    ],
+    "date": "2026-03-22"
+  },
+  {
+    "slug": "safer-browsing-habits",
+    "title": "Safer Browsing Habits",
+    "summary": "Daily browser behaviors that reduce risk without making the web unusable.",
+    "tags": [
+      "Browser safety",
+      "Habits"
+    ],
+    "date": "2026-03-19"
+  },
+  {
+    "slug": "why-updates-matter",
+    "title": "Why Updates Matter",
+    "summary": "Updates are not cosmetic; they close known holes that attackers actively use.",
+    "tags": [
+      "Updates",
+      "Patch management"
+    ],
+    "date": "2026-03-17"
+  },
+  {
+    "slug": "device-hygiene-basics",
+    "title": "Device Hygiene Basics",
+    "summary": "Core device practices: lock screens, backups, trusted installs, and clean permissions.",
+    "tags": [
+      "Device security",
+      "Backups"
+    ],
+    "date": "2026-03-15"
+  }
+]

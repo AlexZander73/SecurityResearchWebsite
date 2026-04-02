@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Data Leakage Through Prompts | Plaintext Security</title>
+<meta name="description" content="Sensitive data can leak into prompts, logs, and outputs unless your pipeline explicitly prevents it." />
+<meta property="og:title" content="Data Leakage Through Prompts | Plaintext Security" />
+<meta property="og:description" content="Sensitive data can leak into prompts, logs, and outputs unless your pipeline explicitly prevents it." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="ai-risks/data-leakage-through-prompts/index.html" />
+<link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg" />
+<link rel="stylesheet" href="../../assets/css/base.css" />
+<link rel="stylesheet" href="../../assets/css/components.css" />
+<link rel="stylesheet" href="../../assets/css/pages.css" />
+</head>
+<body data-root="../../" data-page="ai-risks" data-section="ai-risks" data-slug="data-leakage-through-prompts">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div data-site-header></div>
+  <main id="main">
+
+<nav class="breadcrumbs container" aria-label="Breadcrumb">
+  <a href="../../index.html">Home</a>
+  <span aria-hidden="true">/</span>
+  <a href="../../ai-risks/index.html">AI & Automation Risks</a>
+  <span aria-hidden="true">/</span>
+  <span>Data Leakage Through Prompts</span>
+</nav>
+
+<article class="article container">
+  <header class="article-header">
+    <p class="eyebrow">AI & Automation Risks</p>
+    <h1>Data Leakage Through Prompts</h1>
+    <p class="lede">Sensitive data can leak into prompts, logs, and outputs unless your pipeline explicitly prevents it.</p>
+    <ul class="tag-list"><li class="tag-pill">Data protection</li><li class="tag-pill">Prompt hygiene</li></ul>
+    <p class="meta">Updated 2026-03-21</p>
+  </header>
+  <div class="article-content">
+    
+<section>
+  <h2>What this risk looks like</h2>
+  <p>Teams may pass full records into prompts for convenience, exposing secrets and regulated data to unnecessary risk.</p>
+</section>
+<section>
+  <h2>What can go wrong</h2>
+  <ul>
+    <li>PII leakage in output summaries</li><li>Sensitive prompts stored in logs or analytics</li><li>Cross-tenant context contamination</li>
+  </ul>
+</section>
+<section>
+  <h2>Safer patterns</h2>
+  <ol>
+    <li>Minimize prompt payloads to only required fields.</li><li>Mask or tokenize sensitive attributes before inference.</li><li>Separate analytics from raw prompt data.</li>
+  </ol>
+</section>
+<section>
+  <h2>Minimum control set</h2>
+  <div class="checklist">
+    <ul>
+      <li>Prompt redaction layer</li><li>Data classification policy for AI features</li><li>Output scanning for sensitive patterns</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="callout"><strong>AI builder reminder:</strong> Model output is not policy. Every sensitive action needs explicit guardrails.</div>
+</section>
+
+  </div>
+</article>
+<section class="container related-shell" data-related></section>
+
+  </main>
+  <div data-site-footer></div>
+  <script src="../../assets/js/content-data.js"></script>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

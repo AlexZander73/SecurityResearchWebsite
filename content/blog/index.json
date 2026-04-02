@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "why-qr-codes-are-a-trust-problem",
+    "title": "Why QR Codes Are a Trust Problem, Not a Tech Problem",
+    "summary": "The risk in QR codes is not the square itself; it is the invisible destination and rushed context.",
+    "tags": [
+      "QR safety",
+      "Opinion"
+    ],
+    "date": "2026-03-28"
+  },
+  {
+    "slug": "one-red-flag-can-save-you",
+    "title": "One Red Flag Can Save You",
+    "summary": "You do not need perfect detection; one credible warning sign is enough reason to stop and verify.",
+    "tags": [
+      "Decision making",
+      "Practical habits"
+    ],
+    "date": "2026-03-25"
+  },
+  {
+    "slug": "why-smart-people-still-get-scammed",
+    "title": "Why Smart People Still Get Scammed",
+    "summary": "Scams succeed through context and pressure, not lack of intelligence.",
+    "tags": [
+      "Human factors",
+      "Scam psychology"
+    ],
+    "date": "2026-03-22"
+  },
+  {
+    "slug": "move-fast-ship-risk",
+    "title": "Move Fast, Ship Risk: A Builder\u2019s Tradeoff",
+    "summary": "Shipping quickly is not the problem; shipping without secure defaults is.",
+    "tags": [
+      "Builders",
+      "Product security"
+    ],
+    "date": "2026-03-19"
+  },
+  {
+    "slug": "ai-makes-scams-cheaper",
+    "title": "AI Makes Scams Cheaper, Faster, and More Personal",
+    "summary": "Generative tooling lowers attacker cost and increases iteration speed, changing scam economics.",
+    "tags": [
+      "AI scams",
+      "Threat trends"
+    ],
+    "date": "2026-03-16"
+  },
+  {
+    "slug": "good-security-advice-should-be-clear",
+    "title": "Good Security Advice Should Be Clear Under Stress",
+    "summary": "If guidance only works when people are calm and technical, it is not good enough.",
+    "tags": [
+      "Security education",
+      "Communication"
+    ],
+    "date": "2026-03-13"
+  }
+]
