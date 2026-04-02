@@ -127,3 +127,50 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+.section-visual,
+.card-visual,
+.inline-visual {
+  width: 100%;
+  border-radius: var(--radius-md);
+  border: 1px solid #cddaea;
+  background: #f6f9fd;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+
+.section-visual {
+  max-width: 48rem;
+  margin: 1rem auto 0;
+  display: block;
+}
+
+.card-visual {
+  margin: 0 0 0.8rem;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.inline-visual {
+  max-width: 44rem;
+  margin: 1rem 0;
+}
+
+
+.plain-words {
+  border: 1px solid #c9d9eb;
+  background: #f4f8fd;
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.plain-words h2 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+}
+
+.plain-words p {
+  margin: 0;
+  color: var(--text-muted);
+}
