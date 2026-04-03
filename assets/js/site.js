@@ -135,6 +135,7 @@
 
       let q = '';
       let activeTag = '';
+      let activeContext = '';
 
       const controls = document.createElement('div');
       controls.className = 'feed-controls';
@@ -180,6 +181,36 @@
         });
 
         controls.appendChild(tagWrap);
+
+        if (feed.dataset.feedScenarios === 'true') {
+          const scenarioWrap = document.createElement('div');
+          scenarioWrap.className = 'filter-tags';
+          scenarioWrap.setAttribute('aria-label', 'Scenario context filters');
+          const contexts = [
+            { label: 'Urgency', terms: ['urgent', 'immediate', 'countdown', 'pressure'] },
+            { label: 'Payments', terms: ['payment', 'bank', 'card', 'transfer', 'fee'] },
+            { label: 'Impersonation', terms: ['fake', 'impersonation', 'voice', 'support', 'bank alert'] },
+            { label: 'Account Access', terms: ['login', 'password', 'mfa', 'account', 'credentials'] }
+          ];
+          contexts.forEach((ctx) => {
+            const b = document.createElement('button');
+            b.className = 'filter-chip';
+            b.type = 'button';
+            b.textContent = ctx.label;
+            b.dataset.contextTerms = ctx.terms.join('|');
+            b.setAttribute('aria-pressed', 'false');
+            b.addEventListener('click', () => {
+              const already = activeContext === b.dataset.contextTerms;
+              activeContext = already ? '' : b.dataset.contextTerms || '';
+              scenarioWrap.querySelectorAll('.filter-chip').forEach((chip) => {
+                chip.setAttribute('aria-pressed', chip === b && !already ? 'true' : 'false');
+              });
+              render();
+            });
+            scenarioWrap.appendChild(b);
+          });
+          controls.appendChild(scenarioWrap);
+        }
       }
 
       const grid = document.createElement('div');
@@ -190,7 +221,12 @@
           const blob = `${entry.title} ${entry.summary} ${(entry.tags || []).join(' ')}`.toLowerCase();
           const queryOk = !q || blob.includes(q);
           const tagOk = !activeTag || (entry.tags || []).includes(activeTag);
-          return queryOk && tagOk;
+          let contextOk = true;
+          if (activeContext) {
+            const terms = activeContext.split('|');
+            contextOk = terms.some((t) => blob.includes(t.toLowerCase()));
+          }
+          return queryOk && tagOk && contextOk;
         });
       }
 

@@ -51,4 +51,16 @@
   <url><loc>https://example.com/submit/index.html</loc></url>
   <url><loc>https://example.com/qr-safety/printable.html</loc></url>
   <url><loc>https://example.com/404.html</loc></url>
+  <url><loc>https://example.com/response/first-5-minutes/index.html</loc></url>
+  <url><loc>https://example.com/scams/local-patterns/index.html</loc></url>
+  <url><loc>https://example.com/response/interactive-checklists/index.html</loc></url>
+  <url><loc>https://example.com/roadmap/simulation-cards/index.html</loc></url>
+  <url><loc>https://example.com/submit/triage-playbook/index.html</loc></url>
+  <url><loc>https://example.com/roadmap/scenario-packs/index.html</loc></url>
+  <url><loc>https://example.com/roadmap/facilitator-guides/index.html</loc></url>
+  <url><loc>https://example.com/roadmap/facilitator-guides/guide-a.html</loc></url>
+  <url><loc>https://example.com/roadmap/facilitator-guides/guide-b.html</loc></url>
+  <url><loc>https://example.com/roadmap/facilitator-guides/guide-c.html</loc></url>
+  <url><loc>https://example.com/blog/quarterly-timeline/index.html</loc></url>
+  <url><loc>https://example.com/qr-landing/index.html</loc></url>
 </urlset>

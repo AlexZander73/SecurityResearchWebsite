@@ -13,6 +13,7 @@ Polished static security education website built with plain HTML, CSS, and JavaS
 
 - Home: `/index.html`
 - QR Safety: `/qr-safety/index.html`
+- QR Landing (legacy homepage): `/qr-landing/index.html`
 - Scam Library: `/scams/index.html`
 - What To Do Now: `/response/index.html`
 - Security Basics: `/basics/index.html`
